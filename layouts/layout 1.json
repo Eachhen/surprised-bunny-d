@@ -51,10 +51,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 240,
-						"width": 640,
-						"height": 480,
+						"x": 326,
+						"y": 256,
+						"width": 652,
+						"height": 512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -111,8 +111,8 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 524,
-						"y": 259,
+						"x": 523,
+						"y": 266,
 						"width": 109,
 						"height": 106,
 						"originX": 0.5,
@@ -140,10 +140,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 147,
-						"y": 233,
-						"width": 93,
-						"height": 110,
+						"x": 148.5,
+						"y": 227,
+						"width": 96,
+						"height": 122,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -169,12 +169,70 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 334,
-						"y": 425,
-						"width": 352,
-						"height": 118,
+						"x": 344,
+						"y": 462,
+						"width": 175,
+						"height": 69,
 						"originX": 0.553072625698324,
 						"originY": 0.78,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Button",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 338,
+						"y": 352,
+						"width": 120,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Pepper",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 475,
+						"y": 98,
+						"width": 79,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

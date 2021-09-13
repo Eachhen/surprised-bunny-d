@@ -78,7 +78,9 @@
 			"TiledBackground",
 			"Sprite",
 			"Sprite2",
-			"Sprite3"
+			"Sprite3",
+			"Button",
+			"Pepper"
 		],
 		"subfolders": []
 	},
