@@ -363,7 +363,7 @@
 				{
 					"id": "on-any-touch-end",
 					"objectClass": "Touch",
-					"sid": 768806402266185
+					"sid": 645505566534565
 				}
 			],
 			"actions": [
@@ -378,6 +378,342 @@
 				}
 			],
 			"sid": 465553139585428
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 241921726180558,
+					"parameters": {
+						"object": "food2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "food2",
+					"sid": 635862158986568,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "GummyWorm2",
+					"sid": 618335555235817,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Pepper2",
+					"sid": 311953836852946,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Rock2",
+					"sid": 379816269035532,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "food2",
+					"sid": 209568069008583,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "GummyWorm2",
+					"sid": 747333630196730,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Rock2",
+					"sid": 870548597422669,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Pepper2",
+					"sid": 414819309742234,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 306237194235026
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 373067337473399,
+					"parameters": {
+						"object": "GummyWorm2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "food2",
+					"sid": 631998991610206,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "GummyWorm2",
+					"sid": 885912780037060,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Pepper2",
+					"sid": 149446712881884,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Rock2",
+					"sid": 472125835917988,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "food2",
+					"sid": 141259570023180,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "GummyWorm2",
+					"sid": 756307342297043,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Rock2",
+					"sid": 833779769270579,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Pepper2",
+					"sid": 906743716312814,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 280594524870833
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 333323901978698,
+					"parameters": {
+						"object": "Pepper2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "food2",
+					"sid": 766882585886827,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "GummyWorm2",
+					"sid": 907808900410953,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Pepper2",
+					"sid": 307185369065950,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Rock2",
+					"sid": 966817978166935,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "food2",
+					"sid": 992485117142440,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "GummyWorm2",
+					"sid": 354458289621825,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Rock2",
+					"sid": 407365281058982,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Pepper2",
+					"sid": 574706220065146,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 431164483236009
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 649370028806438,
+					"parameters": {
+						"object": "Rock2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "food2",
+					"sid": 972216213728981,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "GummyWorm2",
+					"sid": 954765617446676,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Pepper2",
+					"sid": 720126245895600,
+					"parameters": {
+						"opacity": "50"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Rock2",
+					"sid": 699264260417300,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "food2",
+					"sid": 493619785149092,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "GummyWorm2",
+					"sid": 115484157419084,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Rock2",
+					"sid": 874126021675274,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Pepper2",
+					"sid": 125929263964756,
+					"parameters": {
+						"instance-variable": "Selected",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 463354859078381
 		}
 	],
 	"sid": 516847117888192
