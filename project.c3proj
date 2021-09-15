@@ -80,14 +80,14 @@
 			"Sprite2",
 			"Sprite3",
 			"Button",
-			"Pepper",
-			"GummyWorm",
-			"Rock",
 			"menu",
 			"food2",
 			"Pepper2",
 			"Rock2",
-			"GummyWorm2"
+			"GummyWorm2",
+			"GummyWorm",
+			"Pepper",
+			"Rock"
 		],
 		"subfolders": []
 	},
