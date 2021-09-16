@@ -159,6 +159,32 @@
 						"instance-variable": "Move",
 						"value": "false"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 640436389112212,
+					"parameters": {
+						"animation": "\"MouthOpen\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 679098938650775,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 334866023472042,
+					"parameters": {
+						"animation": "\"MouthClosed\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 592931428237757
@@ -192,6 +218,49 @@
 					"parameters": {
 						"instance-variable": "Move",
 						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 172902468285173,
+					"parameters": {
+						"animation": "\"MouthOpen\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 778196584659360,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 353016308328516,
+					"parameters": {
+						"animation": "\"MouthGummyWorm\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 624111760864525,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 270002012959410,
+					"parameters": {
+						"animation": "\"MouthClosed\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -227,6 +296,49 @@
 						"instance-variable": "Move",
 						"value": "false"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 959729027966110,
+					"parameters": {
+						"animation": "\"MouthOpen\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 198471701385951,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 359371235030856,
+					"parameters": {
+						"animation": "\"MouthPepper\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 385451610439030,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 199583457238613,
+					"parameters": {
+						"animation": "\"MouthClosed\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 331141324585327
@@ -260,6 +372,49 @@
 					"parameters": {
 						"instance-variable": "Move",
 						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 216527535618894,
+					"parameters": {
+						"animation": "\"MouthOpen\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 211266820908635,
+					"parameters": {
+						"seconds": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 781767848563856,
+					"parameters": {
+						"animation": "\"MouthRock\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 301136087446527,
+					"parameters": {
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "bunny",
+					"sid": 185553361596217,
+					"parameters": {
+						"animation": "\"MouthClosed\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -319,7 +474,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "food2",
-							"sid": 387381847557457,
+							"sid": 961196312943013,
 							"parameters": {
 								"instance-variable": "Selected"
 							}
@@ -329,7 +484,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "hand",
-							"sid": 938206976641988,
+							"sid": 870287345220383,
 							"parameters": {
 								"object": "food",
 								"layer": "0",
@@ -340,7 +495,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "hand",
-							"sid": 960738413735280,
+							"sid": 113064954668899,
 							"parameters": {
 								"animation": "\"handOpen\"",
 								"from": "beginning"
@@ -349,7 +504,7 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "hand",
-							"sid": 287450073144800,
+							"sid": 929136512075492,
 							"parameters": {
 								"instance-variable": "Release",
 								"value": "false"
@@ -358,23 +513,40 @@
 						{
 							"id": "set-size",
 							"objectClass": "food",
-							"sid": 750575376784903,
+							"sid": 348434033907007,
 							"parameters": {
-								"width": "57.552",
-								"height": "27.144"
+								"width": "66.279765",
+								"height": "73.793261"
 							}
 						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "food",
-							"sid": 639460191992879,
+							"sid": 608964193069797,
 							"parameters": {
 								"instance-variable": "Move",
 								"value": "true"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 241450668852745,
+							"parameters": {
+								"variable": "foodOnScreenAmount",
+								"value": "1"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 173387376849598,
+							"parameters": {
+								"seconds": "2"
+							}
 						}
 					],
-					"sid": 799000409600788
+					"sid": 191802382979053
 				},
 				{
 					"eventType": "block",
@@ -382,7 +554,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "GummyWorm2",
-							"sid": 446635875581676,
+							"sid": 772048356614683,
 							"parameters": {
 								"instance-variable": "Selected"
 							}
@@ -392,7 +564,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "hand",
-							"sid": 737374447739547,
+							"sid": 785233174857456,
 							"parameters": {
 								"object": "GummyWorm",
 								"layer": "0",
@@ -403,7 +575,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "hand",
-							"sid": 627790710607279,
+							"sid": 122213084743790,
 							"parameters": {
 								"animation": "\"handOpen\"",
 								"from": "beginning"
@@ -412,7 +584,7 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "hand",
-							"sid": 504364712793159,
+							"sid": 966524926358227,
 							"parameters": {
 								"instance-variable": "Release",
 								"value": "false"
@@ -421,7 +593,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "GummyWorm",
-							"sid": 187644752123441,
+							"sid": 835935900144743,
 							"parameters": {
 								"width": "59",
 								"height": "49"
@@ -430,14 +602,23 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "GummyWorm",
-							"sid": 618333304598605,
+							"sid": 429771950660450,
 							"parameters": {
 								"instance-variable": "Move",
 								"value": "true"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 484913920624317,
+							"parameters": {
+								"variable": "foodOnScreenAmount",
+								"value": "1"
+							}
 						}
 					],
-					"sid": 394363363074804
+					"sid": 719344325559620
 				},
 				{
 					"eventType": "block",
@@ -445,7 +626,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Pepper2",
-							"sid": 873808397338415,
+							"sid": 217895859459865,
 							"parameters": {
 								"instance-variable": "Selected"
 							}
@@ -455,7 +636,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "hand",
-							"sid": 596911701482532,
+							"sid": 213380816617834,
 							"parameters": {
 								"object": "Pepper",
 								"layer": "0",
@@ -466,7 +647,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "hand",
-							"sid": 595230652498507,
+							"sid": 630222516689715,
 							"parameters": {
 								"animation": "\"handOpen\"",
 								"from": "beginning"
@@ -475,7 +656,7 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "hand",
-							"sid": 612439195449532,
+							"sid": 854412593022846,
 							"parameters": {
 								"instance-variable": "Release",
 								"value": "false"
@@ -484,7 +665,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Pepper",
-							"sid": 442320034976505,
+							"sid": 290576109308715,
 							"parameters": {
 								"width": "59",
 								"height": "49"
@@ -493,14 +674,23 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Pepper",
-							"sid": 136020802233423,
+							"sid": 489598921328015,
 							"parameters": {
 								"instance-variable": "Move",
 								"value": "true"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 892940690874029,
+							"parameters": {
+								"variable": "foodOnScreenAmount",
+								"value": "1"
+							}
 						}
 					],
-					"sid": 475097419594606
+					"sid": 662231662952587
 				},
 				{
 					"eventType": "block",
@@ -508,7 +698,7 @@
 						{
 							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Rock2",
-							"sid": 862091400620960,
+							"sid": 953589510679832,
 							"parameters": {
 								"instance-variable": "Selected"
 							}
@@ -518,7 +708,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "hand",
-							"sid": 859278706453680,
+							"sid": 194513157738007,
 							"parameters": {
 								"object": "Rock",
 								"layer": "0",
@@ -529,7 +719,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "hand",
-							"sid": 828578938736639,
+							"sid": 132347378783218,
 							"parameters": {
 								"animation": "\"handOpen\"",
 								"from": "beginning"
@@ -538,7 +728,7 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "hand",
-							"sid": 561432338981750,
+							"sid": 539964142603088,
 							"parameters": {
 								"instance-variable": "Release",
 								"value": "false"
@@ -547,7 +737,7 @@
 						{
 							"id": "set-size",
 							"objectClass": "Rock",
-							"sid": 782839448230622,
+							"sid": 801550209446209,
 							"parameters": {
 								"width": "66.92",
 								"height": "38.71"
@@ -556,14 +746,23 @@
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Rock",
-							"sid": 615863981999934,
+							"sid": 353112920418897,
 							"parameters": {
 								"instance-variable": "Move",
 								"value": "true"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 667030979806863,
+							"parameters": {
+								"variable": "foodOnScreenAmount",
+								"value": "1"
+							}
 						}
 					],
-					"sid": 230187282936284
+					"sid": 129126131995289
 				}
 			]
 		},
@@ -604,36 +803,10 @@
 						"variable": "foodOnScreenAmount",
 						"value": "food.Count"
 					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 473651894532568,
-					"parameters": {
-						"variable": "foodOnScreenAmount",
-						"value": "Pepper.Count"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 156746845664604,
-					"parameters": {
-						"variable": "foodOnScreenAmount",
-						"value": "GummyWorm.Count"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 732411754455686,
-					"parameters": {
-						"variable": "foodOnScreenAmount",
-						"value": "Rock.Count"
-					}
 				}
 			],
-			"sid": 216616759198395
+			"sid": 216616759198395,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -660,7 +833,37 @@
 					}
 				}
 			],
-			"sid": 252550937435418
+			"sid": 252550937435418,
+			"disabled": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-time",
+							"objectClass": "System",
+							"sid": 283944318358523,
+							"parameters": {
+								"comparison": 0,
+								"time-seconds": "5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "bunny",
+							"sid": 150262142649982,
+							"parameters": {
+								"animation": "\"MouthPepper\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 709366909970791,
+					"disabled": true
+				}
+			]
 		},
 		{
 			"eventType": "block",
@@ -668,7 +871,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 300223349949415,
+					"sid": 991554542621384,
 					"parameters": {
 						"variable": "foodOnScreenAmount",
 						"comparison": 3,
@@ -680,14 +883,15 @@
 				{
 					"id": "set-animation",
 					"objectClass": "bunny",
-					"sid": 917086611480940,
+					"sid": 297860558559053,
 					"parameters": {
 						"animation": "\"MouthClosed\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 897422280429958
+			"sid": 350699540270954,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
@@ -886,6 +1090,15 @@
 						"volume": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 531194519416587,
+					"parameters": {
+						"variable": "foodOnScreenAmount",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 914273516186171
@@ -908,6 +1121,15 @@
 					"id": "destroy",
 					"objectClass": "GummyWorm",
 					"sid": 764666072763254
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 232434933115075,
+					"parameters": {
+						"variable": "foodOnScreenAmount",
+						"value": "1"
+					}
 				},
 				{
 					"id": "play",
@@ -943,6 +1165,15 @@
 					"sid": 165165964603257
 				},
 				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 925101971492667,
+					"parameters": {
+						"variable": "foodOnScreenAmount",
+						"value": "1"
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 747246522852509,
@@ -974,6 +1205,15 @@
 					"id": "destroy",
 					"objectClass": "Rock",
 					"sid": 390704604786204
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 173267739939309,
+					"parameters": {
+						"variable": "foodOnScreenAmount",
+						"value": "1"
+					}
 				},
 				{
 					"id": "play",
